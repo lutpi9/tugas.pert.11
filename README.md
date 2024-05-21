@@ -72,7 +72,7 @@ INSERT INTO pegawai VALUES
 
  ## *4. Tampilkan/hitung jumlah baris/record tabel pegawai!*
  ```
- SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
+ SELECT COUNT(*) AS jumlah_pegawai FROM pegawai;
  ```
 
  ## OUTPUTNYA :
@@ -81,7 +81,7 @@ INSERT INTO pegawai VALUES
 
  ## *5. Tampilkan/hitung jumlah total gaji di tabel pegawai!*
  ```
- SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
+ SELECT SUM(gaji) AS total_gaji FROM pegawai;
  ```
 
  ## OUTPUTNYA :
@@ -89,7 +89,7 @@ INSERT INTO pegawai VALUES
 
  ## *6. Tampilkan/hitung rata-rata gaji pegawai!*
  ```
- SELECT AVG(gaji) AS mean_gaji FROM pegawai;
+ SELECT AVG(gaji) AS rata_rata_gaji FROM pegawai;
  ```
 
  ## OUTPUTNYA :
@@ -147,7 +147,7 @@ INSERT INTO hewan VALUES
 
 ## *1. Tampilkan jumlah hewan yang dimiliki setiap owner.*
 ```
-SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
+SELECT owner, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY owner;
 ```
 
 ## OUTPUTNYA :
@@ -156,7 +156,7 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 
 ## *2. Tampilkan jumlah hewan berdasarkan spesies*
 ```
-SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
+SELECT species, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species;
 ```
 
 ## OUTPUTNYA :
@@ -164,7 +164,7 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 
 ## *3. Tampilkan jumlah hewan berdasarkan jenis kelamin*
 ```
-SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
+SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
 ```
 
 ## OUTPUTNYA :
