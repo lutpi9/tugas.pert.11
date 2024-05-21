@@ -10,11 +10,13 @@
 
 ## Soal Latihan Praktikum (pegawai)
 
-![Alt text](<gambar tabel pegawai.png>)
+![gambar tabel pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/fd70f724-951a-44a9-b83f-1d039b27cf9e)
+
 
 ## perintah SQL :
 
 ```
+
 CREATE TABLE pegawai (
     idpegawai VARCHAR(5) PRIMARY KEY,
     nama_depan VARCHAR(10) NOT NULL,
@@ -37,8 +39,7 @@ INSERT INTO pegawai VALUES
 
 ```
 ## *outputnya*:
-
-![Alt text](<output tabel pegawai.png>)
+![output tabel pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/e9beb0a0-5754-43c5-bd86-884ea3572252)
 
 ## TUGAS PRAKTIKUM
  
@@ -47,8 +48,10 @@ INSERT INTO pegawai VALUES
  SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
  ```
 
+
  ## OUTPUTNYA :
- ![Alt text](<output 1.png>)
+![output 1 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/c285f26c-aebb-46b4-a0be-807bf938df2c)
+
 
  ## *2. Tampilkan pegawai yang tunjangannya NULL!*
  ```
@@ -56,7 +59,7 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 2-1.png>)
+![output 2 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/6b169a64-8522-4d4c-89c2-c2eb86ccaf7e)
 
  ## *3. Tampilkan pegawai yang tunjangannya tidak NULL!*
  ```
@@ -64,7 +67,8 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 3.png>)
+ ![output 3 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/6f791181-dc3f-4dd3-98bd-280692f13a33)
+
 
  ## *4. Tampilkan/hitung jumlah baris/record tabel pegawai!*
  ```
@@ -72,7 +76,8 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 4.png>)
+ ![output 4 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/1db7daeb-0691-465a-beff-7e84dcdca876)
+
 
  ## *5. Tampilkan/hitung jumlah total gaji di tabel pegawai!*
  ```
@@ -80,7 +85,7 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 5.png>)
+![output 5 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/699d3d6a-66f0-4b8f-8e5d-f2d10eb607e8)
 
  ## *6. Tampilkan/hitung rata-rata gaji pegawai!*
  ```
@@ -88,7 +93,7 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 6.png>)
+![output 6 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/635dbc77-e416-463a-b679-07b7fd5cb271)
 
  ## *7. Tampilkan gaji terkecil!*
  ```
@@ -96,7 +101,8 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 7.png>)
+![output 7 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/2759599f-b8c3-4a71-ac5a-a13e123491e8)
+
 
  ## *8. Tampilkan gaji terbesar!*
  ```
@@ -104,10 +110,12 @@ INSERT INTO pegawai VALUES
  ```
 
  ## OUTPUTNYA :
- ![Alt text](<output 8.png>)
+ ![output 8 pegawai](https://github.com/lutpi9/tugas.pert.11/assets/147919251/af9189ea-70da-4fe6-9399-1c6d3f05c3c0)
+
 
 ## Soal Latihan Praktikum (hewan)
-![Alt text](<tabel hewan.png>)
+![tabel hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/60fe6428-6f4f-4e76-968d-c692759880a8)
+
 
 ## perintah SQL :
 ```
@@ -132,7 +140,8 @@ INSERT INTO hewan VALUES
 ```
 
 ## *OUTPUTNYA :*
-![Alt text](<output tabel hewan.png>)
+![output tabel hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/a401d381-a759-402d-9e8a-d0608e676888)
+
 
 ## TUGAS PRAKTIKUM
 
@@ -142,7 +151,8 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 ```
 
 ## OUTPUTNYA :
-![Alt text](<output 1 hewan.png>)
+![output 1 hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/45a2233c-b9b2-4de2-a357-1d47d31d5a62)
+
 
 ## *2. Tampilkan jumlah hewan berdasarkan spesies*
 ```
@@ -150,7 +160,7 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 ```
 
 ## OUTPUTNYA :
-![Alt text](<output 2 hewan.png>)
+![output 2 hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/2dc46549-1dca-4832-ab6a-052c519f78a2)
 
 ## *3. Tampilkan jumlah hewan berdasarkan jenis kelamin*
 ```
@@ -158,7 +168,8 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 ```
 
 ## OUTPUTNYA :
-![Alt text](<output 3 hewan.png>)
+![output 3 hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/576f6296-fd9c-4564-b6ae-eae4438503cd)
+
 
 ## *4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin*
 ```
@@ -166,7 +177,8 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 ```
 
 ## OUTPUTNYA :
-![Alt text](<output 4 hewan.png>)
+![output 4 hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/be5502d6-2cf4-47e3-b3d9-20b9d143022b)
+
 
 ## *5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin*
 ```
@@ -176,7 +188,8 @@ GROUP BY species, sex;
 ```
 
 ## OUTPUTNYA :
-![Alt text](<output 5 hewan.png>)
+![output 5 hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/aa0e7810-a5fc-4f86-af3d-7efd73e0a234)
+
 
 ## *6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja*
 ```
@@ -184,7 +197,8 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 ```
 
 ## OUTPUTNYA :
-![Alt text](<output 6 hewan.png>)
+![output 6 hewan](https://github.com/lutpi9/tugas.pert.11/assets/147919251/715c27f3-7d2f-475d-ab1f-86873275e9d9)
+
 
 ## Evaluasi dan Pertanyaan
 ## *• Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!*
